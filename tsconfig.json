@@ -41,12 +41,12 @@
     "moduleDetection": "force",
     "skipLibCheck": true,
 
-    "project": ".",
+    // "project": ".",
 
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     
   },
-  "include": ["src/**/*"],  // Files to include in the compilation
-  "exclude": ["node_modules"] // Files to exclude from the compilation
+  "include": ["src/**/*"],  
+  "exclude": ["node_modules"] 
 }
